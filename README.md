@@ -17,4 +17,5 @@ Move the executable 'RemoveBranch2D' to the root folder.
 See run.sh for how to run this pipeline. The following workflow will help understand input parameters, intermediate files and final outputs.
 
 ### Workflow
+Red boxes are input variables, blue boxes represents outputs (intermediate or final outputs) and gray boxes are functions.
 ![Workflow](workflow.png)
