@@ -16,3 +16,4 @@ Move the executable 'RemoveBranch2D' to the root folder.
 See run.sh for how to run this pipeline. 
 
 ### Workflow
+![Workflow](workflow.png)
