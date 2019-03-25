@@ -8,7 +8,7 @@
 l=8557
 w=11377
 persistence_threshold=0.01   # can be larger for efficiency
-remove_branch_threshold=2250   # default value is 1
+intensity_threshold=2250   # default value is 1
 GAUSSIAN=0		    # Gaussian smoothing sigma, 0 means no smoothing
 
 # lots of file paths.
@@ -32,7 +32,7 @@ python graphRecon.py $filename -t 2 $persistence_threshold
 
 # Remove redundant edges of discrete morse output, in new_vert, new_edge.txt
 echo "Running RemoveBranch2D......"
-./RemoveBranch2D $output_folder $l $w $remove_branch_threshold
+./RemoveBranch2D $output_folder $l $w $intensity_threshold
 
 # convert new_vert, new_edge to an image
 echo "Running graph2image.py......"
