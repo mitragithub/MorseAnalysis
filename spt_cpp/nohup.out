@@ -1,0 +1,82 @@
+4 parameters detected
+Reading in simplicial complex...
+	Reading 14585331vertices
+	Sorting 14585331vertices
+	Done.
+	Preparing adjacency graph for vertices
+	Done
+	Reading 43740594edges
+	Done.
+	Preparing adjacency graph for edges
+	Done
+	Reading 29155264triangles
+	Done.
+Done
+read in and build complex: 372.181
+Building pseudo-Morse function...
+	 Processing 43740594 edges
+	 Processing 29155264 triangles
+Done
+building pseudo-Morse function: 10.8535
+Building filtration...
+	Inserting simplicies...done
+Done
+filtration time: 448.23
+Computing persistence pairs...
+	Initializing boundary matrix...
+		Matrix size: 87481189
+	Initialized!
+	Computing persitence pairs...
+	Computed and sorted!
+	Counting total43740594 ms-pairs and sm-pairs...done!
+Done!
+Outputing persistence pairs...
+persistence time: 193.744
+Writing pre_saved_data...
+Written 14585331int, 14585330VE pair, 29155264ET pair.
+Done!
+preprocess time: 1037.07
+sp2:
+build spanning tree.ve:106 et:0 unpair:0 
+Done.
+build sp tree time: 27.9324
+cri_e: 106
+#know_min:105
+#not know min:107
+retrive time: 60.6663
+#vert: 37100
+#edge: 52563
+write output time: 0.474654
+sp2 time: 89.0735
+5 parameters detected
+Reading in pre_saved_data...
+	Reading 14585331vertices
+	Preparing adjacency graph for vertices
+	Done
+	Reading 43740594edges
+	Done.
+	Preparing adjacency graph for edges
+	Done
+	Reading 29155264triangles
+	reading 14585331sorted vertex indices
+	reading 14585330 VE pairs
+	reading 29155264 ET pairs
+	Done.
+Done
+Building pseudo-Morse function...
+	 Processing 43740594 edges
+	 Processing 29155264 triangles
+Done
+preprocess time: 342.916
+sp2:
+build spanning tree.ve:2 et:0 unpair:0 
+Done.
+build sp tree time: 27.7283
+cri_e: 2
+#know_min:1
+#not know min:3
+retrive time: 61.4058
+#vert: 6801
+#edge: 10529
+write output time: 0.081471
+sp2 time: 89.2159

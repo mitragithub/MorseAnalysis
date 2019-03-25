@@ -1,0 +1,1 @@
+/sonas-hs/it/hpc/home/easybuild/install_prod/software/Core/GCCcore/6.4.0/bin/c++     CMakeFiles/spt_cpp.dir/DiMoSC.cpp.o  -o spt_cpp 
