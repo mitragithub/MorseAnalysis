@@ -1,4 +1,4 @@
-appname := RemoveBranch2D
+appname := simplify_by_intensity
 
 CXX := g++
 CXXFLAGS := -g -Wall -std=c++11
