@@ -1,9 +1,9 @@
 //============================================================================
-// Name        : RemoveBranch2D.cpp
+// Name        : IntensitySimp.cpp
 // Author      : Dingkang Wang
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Remove Branches with low intensity
+// Description : Remove Branches with low average intensity.
 //============================================================================
 
 #include "Point.h"
